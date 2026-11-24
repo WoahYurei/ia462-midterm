@@ -1,0 +1,19 @@
+# Python virtual environment and cache
+.venv/
+__pycache__/
+*.pyc
+
+# Local secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Midterm evidence and diagnostic files
+/section[1-8]/
+*.log
+*.evtx
+
+# Local editor configuration
+.vscode/
+.idea/
