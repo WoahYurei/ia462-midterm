@@ -1,0 +1,702 @@
+﻿[
+    {
+        "TimeCreated":  "\/Date(1795465185523)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x3544\r\n\tNew Process Name:\tC:\\Program Files\\Microsoft Office\\root\\Office16\\SDXHelper.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x878\r\n\tCreator Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tProcess Command Line:\t\"C:\\Program Files\\Microsoft Office\\root\\Office16\\sdxhelper.exe\"\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465179820)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x7378\r\n\tNew Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-4096\r\n\tCreator Process ID:\t0x1a48\r\n\tCreator Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tProcess Command Line:\t\"C:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\" --type=renderer --extension-process --no-pre-read-main-dll --with-feature:acceptable-ads=off --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:address-bar-specific-affiliation=on --with-feature:auto-gaming-intent-suggestion=on --with-feature:cashback-assistant=on --with-feature:cashback-extended-messaging=on --with-feature:certificate-transparency-enforcement=on --with-feature:cms-restore-attribution=on --with-feature:continue-on-gaming-special-deals=on --with-feature:domain-suggestions-confidence-scoring=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:fun-voice-messages=on --with-feature:gcm-store-self-repair=on --with-feature:gx-gaming-extension=on --with-feature:gx-post-mortem=on --with-feature:in-house-autocomplete-send=off --with-feature:installer-experiment-test=off --with-feature:installer-move-opera-exe=off --with-feature:installer-verify-ipc-client=off --with-feature:run-at-startup-default=on --with-feature:session-restore-add-amazon-attributions=off --with-feature:session-restore-add-booking-attributions=off --with-feature:side-panel-full-api=on --with-feature:sitecheck-age=on --with-feature:skia-graphite-default-params=on --with-feature:tiktok-panel=on --with-feature:universal-skip-button=on --with-feature:vpn-pro-v4-support=on --ab-tests=GXCTest50-ref:DNA-99214_GXCTest50 --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4166 --launch-time-ticks=419614370232 --metrics-shmem-handle=15036,i,13310030096201792305,14976969113274024859,1572864 --field-trial-handle=1868,i,18330881713126082890,16250282550088848481,262144 --enable-features=AIDecisionModelAPI,AIDecisionModelAPIForWorkers,AIEmbeddingsAPI,AIEmbeddingsAPIForWorkers,AIPromptAPI,AIPromptAPIForWorkers,AIPromptAPIParams,AIPromptAPIToolUse,AIProofreadingAPI,AIRewriterAPI,AIRewriterAPIForWorkers,AISummarizationAPI,AISummarizationAPIForWorkers,AIWriterAPI,AIWriterAPIForWorkers,CertificateTransparencyAskBeforeEnabling,GcmStoreSelfRepair,MultiThreadedUiCompositor,NativeNotifications,SkiaGraphite,SystemNotifications --disable-features=AutoPictureInPictureVideoHeuristics,BrowserInitiatedAutomaticPictureInPicture,CanvasDrawElement,ExtendedDWCCollection,SyncWorkspacesInSessions --variations-seed-version --pseudonymization-salt-handle=1880,i,8835559847451195703,576203549912248553,4 --trace-process-track-uuid=3190712890028214428 --mojo-platform-channel-handle=20044 /prefetch:9\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465139110)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x4004\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465139072)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x245c\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465119805)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x6c44\r\n\tNew Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-4096\r\n\tCreator Process ID:\t0x1a48\r\n\tCreator Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tProcess Command Line:\t\"C:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\" --type=renderer --extension-process --no-pre-read-main-dll --with-feature:acceptable-ads=off --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:address-bar-specific-affiliation=on --with-feature:auto-gaming-intent-suggestion=on --with-feature:cashback-assistant=on --with-feature:cashback-extended-messaging=on --with-feature:certificate-transparency-enforcement=on --with-feature:cms-restore-attribution=on --with-feature:continue-on-gaming-special-deals=on --with-feature:domain-suggestions-confidence-scoring=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:fun-voice-messages=on --with-feature:gcm-store-self-repair=on --with-feature:gx-gaming-extension=on --with-feature:gx-post-mortem=on --with-feature:in-house-autocomplete-send=off --with-feature:installer-experiment-test=off --with-feature:installer-move-opera-exe=off --with-feature:installer-verify-ipc-client=off --with-feature:run-at-startup-default=on --with-feature:session-restore-add-amazon-attributions=off --with-feature:session-restore-add-booking-attributions=off --with-feature:side-panel-full-api=on --with-feature:sitecheck-age=on --with-feature:skia-graphite-default-params=on --with-feature:tiktok-panel=on --with-feature:universal-skip-button=on --with-feature:vpn-pro-v4-support=on --ab-tests=GXCTest50-ref:DNA-99214_GXCTest50 --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4165 --launch-time-ticks=419554356141 --metrics-shmem-handle=16084,i,14315620032940082781,6066269868692635350,1572864 --field-trial-handle=1868,i,18330881713126082890,16250282550088848481,262144 --enable-features=AIDecisionModelAPI,AIDecisionModelAPIForWorkers,AIEmbeddingsAPI,AIEmbeddingsAPIForWorkers,AIPromptAPI,AIPromptAPIForWorkers,AIPromptAPIParams,AIPromptAPIToolUse,AIProofreadingAPI,AIRewriterAPI,AIRewriterAPIForWorkers,AISummarizationAPI,AISummarizationAPIForWorkers,AIWriterAPI,AIWriterAPIForWorkers,CertificateTransparencyAskBeforeEnabling,GcmStoreSelfRepair,MultiThreadedUiCompositor,NativeNotifications,SkiaGraphite,SystemNotifications --disable-features=AutoPictureInPictureVideoHeuristics,BrowserInitiatedAutomaticPictureInPicture,CanvasDrawElement,ExtendedDWCCollection,SyncWorkspacesInSessions --variations-seed-version --pseudonymization-salt-handle=1880,i,8835559847451195703,576203549912248553,4 --trace-process-track-uuid=3190712889091172579 --mojo-platform-channel-handle=8612 /prefetch:9\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465097300)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x700c\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465097261)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x1ab0\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465077371)\/",
+        "Id":  4726,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A user account was deleted.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\r\nTarget Account:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1005\r\n\tAccount Name:\t\tMidtermAuditTest\r\n\tAccount Domain:\t\tYureisPC\r\n\r\nAdditional Information:\r\n\tPrivileges\t-"
+    },
+    {
+        "TimeCreated":  "\/Date(1795465077371)\/",
+        "Id":  4729,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A member was removed from a security-enabled global group.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\r\nMember:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1005\r\n\tAccount Name:\t\t-\r\n\r\nGroup:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-513\r\n\tGroup Name:\t\tNone\r\n\tGroup Domain:\t\tYureisPC\r\n\r\nAdditional Information:\r\n\tPrivileges:\t\t-"
+    },
+    {
+        "TimeCreated":  "\/Date(1795465059824)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x33d4\r\n\tNew Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-4096\r\n\tCreator Process ID:\t0x1a48\r\n\tCreator Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tProcess Command Line:\t\"C:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\" --type=renderer --extension-process --no-pre-read-main-dll --with-feature:acceptable-ads=off --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:address-bar-specific-affiliation=on --with-feature:auto-gaming-intent-suggestion=on --with-feature:cashback-assistant=on --with-feature:cashback-extended-messaging=on --with-feature:certificate-transparency-enforcement=on --with-feature:cms-restore-attribution=on --with-feature:continue-on-gaming-special-deals=on --with-feature:domain-suggestions-confidence-scoring=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:fun-voice-messages=on --with-feature:gcm-store-self-repair=on --with-feature:gx-gaming-extension=on --with-feature:gx-post-mortem=on --with-feature:in-house-autocomplete-send=off --with-feature:installer-experiment-test=off --with-feature:installer-move-opera-exe=off --with-feature:installer-verify-ipc-client=off --with-feature:run-at-startup-default=on --with-feature:session-restore-add-amazon-attributions=off --with-feature:session-restore-add-booking-attributions=off --with-feature:side-panel-full-api=on --with-feature:sitecheck-age=on --with-feature:skia-graphite-default-params=on --with-feature:tiktok-panel=on --with-feature:universal-skip-button=on --with-feature:vpn-pro-v4-support=on --ab-tests=GXCTest50-ref:DNA-99214_GXCTest50 --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4164 --launch-time-ticks=419494373967 --metrics-shmem-handle=8180,i,16244710298640687669,15896057294424699221,1572864 --field-trial-handle=1868,i,18330881713126082890,16250282550088848481,262144 --enable-features=AIDecisionModelAPI,AIDecisionModelAPIForWorkers,AIEmbeddingsAPI,AIEmbeddingsAPIForWorkers,AIPromptAPI,AIPromptAPIForWorkers,AIPromptAPIParams,AIPromptAPIToolUse,AIProofreadingAPI,AIRewriterAPI,AIRewriterAPIForWorkers,AISummarizationAPI,AISummarizationAPIForWorkers,AIWriterAPI,AIWriterAPIForWorkers,CertificateTransparencyAskBeforeEnabling,GcmStoreSelfRepair,MultiThreadedUiCompositor,NativeNotifications,SkiaGraphite,SystemNotifications --disable-features=AutoPictureInPictureVideoHeuristics,BrowserInitiatedAutomaticPictureInPicture,CanvasDrawElement,ExtendedDWCCollection,SyncWorkspacesInSessions --variations-seed-version --pseudonymization-salt-handle=1880,i,8835559847451195703,576203549912248553,4 --trace-process-track-uuid=3190712888154130730 --mojo-platform-channel-handle=19024 /prefetch:9\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465045269)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x6e54\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465045229)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x5924\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465041358)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x78f0\r\n\tNew Process Name:\tC:\\Windows\\System32\\taskhostw.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x878\r\n\tCreator Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tProcess Command Line:\ttaskhostw.exe TaskName:88=ActionCenterTriggerTask-128000000001627409-render-{11947983-f15e-4a3e-b09e-977a7669faa3};CreativeId:18=128000000001627409;TriggerType:6=render;ActionName:4=noOp;OverrideRule:4=none;TriggerId:0=;TriggerPredicate:0=;CorrelationId:38={07352cad-b835-4fe6-9fe0-43268be076ab};\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465040813)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x7350\r\n\tNew Process Name:\tC:\\Windows\\System32\\taskhostw.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x878\r\n\tCreator Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tProcess Command Line:\ttaskhostw.exe\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465040741)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x6a24\r\n\tNew Process Name:\tC:\\Windows\\System32\\taskhostw.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x878\r\n\tCreator Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tProcess Command Line:\ttaskhostw.exe TaskName:87=SoftLandingTriggerTask-128000000001615609-render-{f7caaa35-5693-4fea-b1d7-2fb4863d3476};CreativeId:18=128000000001615609;TriggerType:6=render;ActionName:4=noOp;OverrideRule:4=none;TriggerId:0=;TriggerPredicate:0=;CorrelationId:38={1aca2d13-0361-4b22-90f7-8f1b20363c97};\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465023362)\/",
+        "Id":  4738,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A user account was changed.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\r\nTarget Account:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1005\r\n\tAccount Name:\t\tMidtermAuditTest\r\n\tAccount Domain:\t\tYureisPC\r\n\r\nChanged Attributes:\r\n\tSAM Account Name:\tMidtermAuditTest\r\n\tDisplay Name:\t\t\u003cvalue not set\u003e\r\n\tUser Principal Name:\t-\r\n\tHome Directory:\t\t\u003cvalue not set\u003e\r\n\tHome Drive:\t\t\u003cvalue not set\u003e\r\n\tScript Path:\t\t\u003cvalue not set\u003e\r\n\tProfile Path:\t\t\u003cvalue not set\u003e\r\n\tUser Workstations:\t\u003cvalue not set\u003e\r\n\tPassword Last Set:\t\u003cnever\u003e\r\n\tAccount Expires:\t\t\u003cnever\u003e\r\n\tPrimary Group ID:\t513\r\n\tAllowedToDelegateTo:\t-\r\n\tOld UAC Value:\t\t0x15\r\n\tNew UAC Value:\t\t0x15\r\n\tUser Account Control:\t-\r\n\tUser Parameters:\t\u003cvalue not set\u003e\r\n\tSID History:\t\t-\r\n\tLogon Hours:\t\tAll\r\n\r\nAdditional Information:\r\n\tPrivileges:\t\t-"
+    },
+    {
+        "TimeCreated":  "\/Date(1795465023359)\/",
+        "Id":  4720,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A user account was created.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\r\nNew Account:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1005\r\n\tAccount Name:\t\tMidtermAuditTest\r\n\tAccount Domain:\t\tYureisPC\r\n\r\nAttributes:\r\n\tSAM Account Name:\tMidtermAuditTest\r\n\tDisplay Name:\t\t\u003cvalue not set\u003e\r\n\tUser Principal Name:\t-\r\n\tHome Directory:\t\t\u003cvalue not set\u003e\r\n\tHome Drive:\t\t\u003cvalue not set\u003e\r\n\tScript Path:\t\t\u003cvalue not set\u003e\r\n\tProfile Path:\t\t\u003cvalue not set\u003e\r\n\tUser Workstations:\t\u003cvalue not set\u003e\r\n\tPassword Last Set:\t\u003cnever\u003e\r\n\tAccount Expires:\t\t\u003cnever\u003e\r\n\tPrimary Group ID:\t513\r\n\tAllowed To Delegate To:\t-\r\n\tOld UAC Value:\t\t0x0\r\n\tNew UAC Value:\t\t0x15\r\n\tUser Account Control:\t\r\n\t\tAccount Disabled\r\n\t\t\u0027Password Not Required\u0027 - Enabled\r\n\t\t\u0027Normal Account\u0027 - Enabled\r\n\tUser Parameters:\t\u003cvalue not set\u003e\r\n\tSID History:\t\t-\r\n\tLogon Hours:\t\tAll\r\n\r\nAdditional Information:\r\n\tPrivileges\t\t-"
+    },
+    {
+        "TimeCreated":  "\/Date(1795465023358)\/",
+        "Id":  4728,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A member was added to a security-enabled global group.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\r\nMember:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1005\r\n\tAccount Name:\t\t-\r\n\r\nGroup:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-513\r\n\tGroup Name:\t\tNone\r\n\tGroup Domain:\t\tYureisPC\r\n\r\nAdditional Information:\r\n\tPrivileges:\t\t-"
+    },
+    {
+        "TimeCreated":  "\/Date(1795465021574)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x76f4\r\n\tNew Process Name:\tC:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SoftLandingTask\\SoftLandingTask.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x704\r\n\tCreator Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tProcess Command Line:\t\"C:\\WINDOWS\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SoftLandingTask\\SoftLandingTask.exe\" -Embedding\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795465021548)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x304c\r\n\tNew Process Name:\tC:\\Windows\\System32\\taskhostw.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x878\r\n\tCreator Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tProcess Command Line:\ttaskhostw.exe \r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464999806)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x1d04\r\n\tNew Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-4096\r\n\tCreator Process ID:\t0x1a48\r\n\tCreator Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tProcess Command Line:\t\"C:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\" --type=renderer --extension-process --no-pre-read-main-dll --with-feature:acceptable-ads=off --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:address-bar-specific-affiliation=on --with-feature:auto-gaming-intent-suggestion=on --with-feature:cashback-assistant=on --with-feature:cashback-extended-messaging=on --with-feature:certificate-transparency-enforcement=on --with-feature:cms-restore-attribution=on --with-feature:continue-on-gaming-special-deals=on --with-feature:domain-suggestions-confidence-scoring=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:fun-voice-messages=on --with-feature:gcm-store-self-repair=on --with-feature:gx-gaming-extension=on --with-feature:gx-post-mortem=on --with-feature:in-house-autocomplete-send=off --with-feature:installer-experiment-test=off --with-feature:installer-move-opera-exe=off --with-feature:installer-verify-ipc-client=off --with-feature:run-at-startup-default=on --with-feature:session-restore-add-amazon-attributions=off --with-feature:session-restore-add-booking-attributions=off --with-feature:side-panel-full-api=on --with-feature:sitecheck-age=on --with-feature:skia-graphite-default-params=on --with-feature:tiktok-panel=on --with-feature:universal-skip-button=on --with-feature:vpn-pro-v4-support=on --ab-tests=GXCTest50-ref:DNA-99214_GXCTest50 --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4163 --launch-time-ticks=419434356591 --metrics-shmem-handle=4416,i,2832929192439669028,1437762776807837789,1572864 --field-trial-handle=1868,i,18330881713126082890,16250282550088848481,262144 --enable-features=AIDecisionModelAPI,AIDecisionModelAPIForWorkers,AIEmbeddingsAPI,AIEmbeddingsAPIForWorkers,AIPromptAPI,AIPromptAPIForWorkers,AIPromptAPIParams,AIPromptAPIToolUse,AIProofreadingAPI,AIRewriterAPI,AIRewriterAPIForWorkers,AISummarizationAPI,AISummarizationAPIForWorkers,AIWriterAPI,AIWriterAPIForWorkers,CertificateTransparencyAskBeforeEnabling,GcmStoreSelfRepair,MultiThreadedUiCompositor,NativeNotifications,SkiaGraphite,SystemNotifications --disable-features=AutoPictureInPictureVideoHeuristics,BrowserInitiatedAutomaticPictureInPicture,CanvasDrawElement,ExtendedDWCCollection,SyncWorkspacesInSessions --variations-seed-version --pseudonymization-salt-handle=1880,i,8835559847451195703,576203549912248553,4 --trace-process-track-uuid=3190712887217088881 --mojo-platform-channel-handle=8180 /prefetch:9\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464980825)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x5714\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464980789)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x62e4\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464939811)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x988\r\n\tNew Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-4096\r\n\tCreator Process ID:\t0x1a48\r\n\tCreator Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tProcess Command Line:\t\"C:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\" --type=renderer --extension-process --no-pre-read-main-dll --with-feature:acceptable-ads=off --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:address-bar-specific-affiliation=on --with-feature:auto-gaming-intent-suggestion=on --with-feature:cashback-assistant=on --with-feature:cashback-extended-messaging=on --with-feature:certificate-transparency-enforcement=on --with-feature:cms-restore-attribution=on --with-feature:continue-on-gaming-special-deals=on --with-feature:domain-suggestions-confidence-scoring=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:fun-voice-messages=on --with-feature:gcm-store-self-repair=on --with-feature:gx-gaming-extension=on --with-feature:gx-post-mortem=on --with-feature:in-house-autocomplete-send=off --with-feature:installer-experiment-test=off --with-feature:installer-move-opera-exe=off --with-feature:installer-verify-ipc-client=off --with-feature:run-at-startup-default=on --with-feature:session-restore-add-amazon-attributions=off --with-feature:session-restore-add-booking-attributions=off --with-feature:side-panel-full-api=on --with-feature:sitecheck-age=on --with-feature:skia-graphite-default-params=on --with-feature:tiktok-panel=on --with-feature:universal-skip-button=on --with-feature:vpn-pro-v4-support=on --ab-tests=GXCTest50-ref:DNA-99214_GXCTest50 --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4162 --launch-time-ticks=419374361935 --metrics-shmem-handle=12460,i,3753068794310872968,9517885942127348567,1572864 --field-trial-handle=1868,i,18330881713126082890,16250282550088848481,262144 --enable-features=AIDecisionModelAPI,AIDecisionModelAPIForWorkers,AIEmbeddingsAPI,AIEmbeddingsAPIForWorkers,AIPromptAPI,AIPromptAPIForWorkers,AIPromptAPIParams,AIPromptAPIToolUse,AIProofreadingAPI,AIRewriterAPI,AIRewriterAPIForWorkers,AISummarizationAPI,AISummarizationAPIForWorkers,AIWriterAPI,AIWriterAPIForWorkers,CertificateTransparencyAskBeforeEnabling,GcmStoreSelfRepair,MultiThreadedUiCompositor,NativeNotifications,SkiaGraphite,SystemNotifications --disable-features=AutoPictureInPictureVideoHeuristics,BrowserInitiatedAutomaticPictureInPicture,CanvasDrawElement,ExtendedDWCCollection,SyncWorkspacesInSessions --variations-seed-version --pseudonymization-salt-handle=1880,i,8835559847451195703,576203549912248553,4 --trace-process-track-uuid=3190712886280047032 --mojo-platform-channel-handle=5080 /prefetch:9\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464939069)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x5604\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464939032)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x6ae8\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464907514)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-19\r\n\tAccount Name:\t\tLOCAL SERVICE\r\n\tAccount Domain:\t\tNT AUTHORITY\r\n\tLogon ID:\t\t0x3E5\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x6eb0\r\n\tNew Process Name:\tC:\\Windows\\System32\\rundll32.exe\r\n\tToken Elevation Type:\tTokenElevationTypeFull (2)\r\n\tMandatory Label:\t\tS-1-16-12288\r\n\tCreator Process ID:\t0x54b4\r\n\tCreator Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tProcess Command Line:\trundll32.exe C:\\WINDOWS\\system32\\davclnt.dll,DavSetCookie localhost http://localhost/IPC%24\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464905385)\/",
+        "Id":  4625,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "An account failed to log on.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nLogon Type:\t\t\t3\r\n\r\nAccount For Which Logon Failed:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\tMidtermTestUser\r\n\tAccount Domain:\t\tYUREISPC\r\n\r\nFailure Information:\r\n\tFailure Reason:\t\tUnknown user name or bad password.\r\n\tStatus:\t\t\t0xC000006D\r\n\tSub Status:\t\t0xC0000064\r\n\r\nProcess Information:\r\n\tCaller Process ID:\t0x0\r\n\tCaller Process Name:\t-\r\n\r\nNetwork Information:\r\n\tWorkstation Name:\tYUREISPC\r\n\tSource Network Address:\t::1\r\n\tSource Port:\t\t65185\r\n\r\nDetailed Authentication Information:\r\n\tLogon Process:\t\tNtLmSsp \r\n\tAuthentication Package:\tNTLM\r\n\tTransited Services:\t-\r\n\tPackage Name (NTLM only):\t-\r\n\tKey Length:\t\t0\r\n\r\nThis event is generated when a logon request fails. It is generated on the computer where access was attempted.\r\n\r\nThe Subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.\r\n\r\nThe Logon Type field indicates the kind of logon that was requested. The most common types are 2 (interactive) and 3 (network).\r\n\r\nThe Process Information fields indicate which account and process on the system requested the logon.\r\n\r\nThe Network Information fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.\r\n\r\nThe authentication information fields provide detailed information about this specific logon request.\r\n\t- Transited services indicate which intermediate services have participated in this logon request.\r\n\t- Package name indicates which sub-protocol was used among the NTLM protocols.\r\n\t- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464905384)\/",
+        "Id":  4648,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A logon was attempted using explicit credentials.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tLogon GUID:\t\t{00000000-0000-0000-0000-000000000000}\r\n\r\nAccount Whose Credentials Were Used:\r\n\tAccount Name:\t\tMidtermTestUser\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon GUID:\t\t{00000000-0000-0000-0000-000000000000}\r\n\r\nTarget Server:\r\n\tTarget Server Name:\tYureisPC\r\n\tAdditional Information:\tYureisPC\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x4\r\n\tProcess Name:\t\t-\r\n\r\nNetwork Information:\r\n\tNetwork Address:\t::1\r\n\tPort:\t\t\t445\r\n\r\nThis event is generated when a process attempts to log on an account by explicitly specifying that account’s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464905345)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x6c0\r\n\tNew Process Name:\tC:\\Windows\\System32\\net.exe\r\n\tToken Elevation Type:\tTokenElevationTypeFull (2)\r\n\tMandatory Label:\t\tS-1-16-12288\r\n\tCreator Process ID:\t0x663c\r\n\tCreator Process Name:\tC:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\r\n\tProcess Command Line:\t\"C:\\WINDOWS\\system32\\net.exe\" use \\\\localhost\\IPC$ /user:YUREISPC\\MidtermTestUser WrongPassword123OMEGALOLLLLLLLLLLL\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464879818)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x665c\r\n\tNew Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-4096\r\n\tCreator Process ID:\t0x1a48\r\n\tCreator Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tProcess Command Line:\t\"C:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\" --type=renderer --extension-process --no-pre-read-main-dll --with-feature:acceptable-ads=off --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:address-bar-specific-affiliation=on --with-feature:auto-gaming-intent-suggestion=on --with-feature:cashback-assistant=on --with-feature:cashback-extended-messaging=on --with-feature:certificate-transparency-enforcement=on --with-feature:cms-restore-attribution=on --with-feature:continue-on-gaming-special-deals=on --with-feature:domain-suggestions-confidence-scoring=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:fun-voice-messages=on --with-feature:gcm-store-self-repair=on --with-feature:gx-gaming-extension=on --with-feature:gx-post-mortem=on --with-feature:in-house-autocomplete-send=off --with-feature:installer-experiment-test=off --with-feature:installer-move-opera-exe=off --with-feature:installer-verify-ipc-client=off --with-feature:run-at-startup-default=on --with-feature:session-restore-add-amazon-attributions=off --with-feature:session-restore-add-booking-attributions=off --with-feature:side-panel-full-api=on --with-feature:sitecheck-age=on --with-feature:skia-graphite-default-params=on --with-feature:tiktok-panel=on --with-feature:universal-skip-button=on --with-feature:vpn-pro-v4-support=on --ab-tests=GXCTest50-ref:DNA-99214_GXCTest50 --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4161 --launch-time-ticks=419314368635 --metrics-shmem-handle=15120,i,7863198519750078930,13293803948403588337,1572864 --field-trial-handle=1868,i,18330881713126082890,16250282550088848481,262144 --enable-features=AIDecisionModelAPI,AIDecisionModelAPIForWorkers,AIEmbeddingsAPI,AIEmbeddingsAPIForWorkers,AIPromptAPI,AIPromptAPIForWorkers,AIPromptAPIParams,AIPromptAPIToolUse,AIProofreadingAPI,AIRewriterAPI,AIRewriterAPIForWorkers,AISummarizationAPI,AISummarizationAPIForWorkers,AIWriterAPI,AIWriterAPIForWorkers,CertificateTransparencyAskBeforeEnabling,GcmStoreSelfRepair,MultiThreadedUiCompositor,NativeNotifications,SkiaGraphite,SystemNotifications --disable-features=AutoPictureInPictureVideoHeuristics,BrowserInitiatedAutomaticPictureInPicture,CanvasDrawElement,ExtendedDWCCollection,SyncWorkspacesInSessions --variations-seed-version --pseudonymization-salt-handle=1880,i,8835559847451195703,576203549912248553,4 --trace-process-track-uuid=3190712885343005183 --mojo-platform-channel-handle=17340 /prefetch:9\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464849839)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x387c\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464849800)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tYUREISPC$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x1f1c\r\n\tNew Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-8192\r\n\tCreator Process ID:\t0x618\r\n\tCreator Process Name:\tC:\\Windows\\System32\\services.exe\r\n\tProcess Command Line:\tC:\\WINDOWS\\system32\\svchost.exe -k LocalService -p -s CaptureService\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464821807)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\tRead Operation:\t\tRead Credential\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464821783)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\tRead Operation:\t\tRead Credential\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464821767)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\tRead Operation:\t\tRead Credential\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464821756)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\tRead Operation:\t\tRead Credential\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464821728)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\tRead Operation:\t\tRead Credential\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464821699)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\tRead Operation:\t\tRead Credential\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464819820)\/",
+        "Id":  4688,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "A new process has been created.\r\n\r\nCreator Subject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\r\nTarget Subject:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\t-\r\n\tAccount Domain:\t\t-\r\n\tLogon ID:\t\t0x0\r\n\r\nProcess Information:\r\n\tNew Process ID:\t\t0x5c04\r\n\tNew Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tToken Elevation Type:\tTokenElevationTypeLimited (3)\r\n\tMandatory Label:\t\tS-1-16-4096\r\n\tCreator Process ID:\t0x1a48\r\n\tCreator Process Name:\tC:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\r\n\tProcess Command Line:\t\"C:\\Users\\bowen\\AppData\\Local\\Programs\\Opera GX\\opera.exe\" --type=renderer --extension-process --no-pre-read-main-dll --with-feature:acceptable-ads=off --with-feature:address-bar-dropdown-unfiltered-full=off --with-feature:address-bar-specific-affiliation=on --with-feature:auto-gaming-intent-suggestion=on --with-feature:cashback-assistant=on --with-feature:cashback-extended-messaging=on --with-feature:certificate-transparency-enforcement=on --with-feature:cms-restore-attribution=on --with-feature:continue-on-gaming-special-deals=on --with-feature:domain-suggestions-confidence-scoring=on --with-feature:feature-remote-disable-updates-testing-flag=off --with-feature:feature-remote-updates-testing-flag=on --with-feature:fun-voice-messages=on --with-feature:gcm-store-self-repair=on --with-feature:gx-gaming-extension=on --with-feature:gx-post-mortem=on --with-feature:in-house-autocomplete-send=off --with-feature:installer-experiment-test=off --with-feature:installer-move-opera-exe=off --with-feature:installer-verify-ipc-client=off --with-feature:run-at-startup-default=on --with-feature:session-restore-add-amazon-attributions=off --with-feature:session-restore-add-booking-attributions=off --with-feature:side-panel-full-api=on --with-feature:sitecheck-age=on --with-feature:skia-graphite-default-params=on --with-feature:tiktok-panel=on --with-feature:universal-skip-button=on --with-feature:vpn-pro-v4-support=on --ab-tests=GXCTest50-ref:DNA-99214_GXCTest50 --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4160 --launch-time-ticks=419254370891 --metrics-shmem-handle=12896,i,13707555708158849188,15374081256734243328,1572864 --field-trial-handle=1868,i,18330881713126082890,16250282550088848481,262144 --enable-features=AIDecisionModelAPI,AIDecisionModelAPIForWorkers,AIEmbeddingsAPI,AIEmbeddingsAPIForWorkers,AIPromptAPI,AIPromptAPIForWorkers,AIPromptAPIParams,AIPromptAPIToolUse,AIProofreadingAPI,AIRewriterAPI,AIRewriterAPIForWorkers,AISummarizationAPI,AISummarizationAPIForWorkers,AIWriterAPI,AIWriterAPIForWorkers,CertificateTransparencyAskBeforeEnabling,GcmStoreSelfRepair,MultiThreadedUiCompositor,NativeNotifications,SkiaGraphite,SystemNotifications --disable-features=AutoPictureInPictureVideoHeuristics,BrowserInitiatedAutomaticPictureInPicture,CanvasDrawElement,ExtendedDWCCollection,SyncWorkspacesInSessions --variations-seed-version --pseudonymization-salt-handle=1880,i,8835559847451195703,576203549912248553,4 --trace-process-track-uuid=3190712884405963334 --mojo-platform-channel-handle=8096 /prefetch:9\r\n\r\nToken Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.\r\n\r\nType 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.\r\n\r\nType 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.\r\n\r\nType 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783768)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783768)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783768)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783768)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783768)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783768)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783768)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783768)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783767)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783767)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783767)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783767)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783767)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783767)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783754)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783754)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783753)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783753)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783753)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783753)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783753)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783753)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783753)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783752)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783752)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783752)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783752)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783752)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783752)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783745)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783745)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783745)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783745)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783745)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783745)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783745)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783744)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783744)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783744)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783744)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783744)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783744)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783736)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tRead Credential\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783736)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783736)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783736)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783735)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783735)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783735)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783735)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783735)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783735)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783735)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783735)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783734)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783734)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783734)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783734)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x307E3\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783289)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated":  "\/Date(1795464783289)\/",
+        "Id":  5379,
+        "ProviderName":  "Microsoft-Windows-Security-Auditing",
+        "LevelDisplayName":  "Information",
+        "Message":  "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-3422114317-985764826-2862295277-1001\r\n\tAccount Name:\t\tbowen\r\n\tAccount Domain:\t\tYUREISPC\r\n\tLogon ID:\t\t0x30CED\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    }
+]

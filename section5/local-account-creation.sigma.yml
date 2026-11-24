@@ -1,0 +1,23 @@
+
+title: Windows Local Account Creation
+id: 9d92f6c1-3e74-4b58-8c21-7f62a5d390be
+status: experimental
+description: Detects Windows user account creation that may indicate an attempt to establish persistence.
+author: Mark Bowen
+date: 2026-11-23
+references:
+    - https://attack.mitre.org/techniques/T1136/001/
+tags:
+    - attack.persistence
+    - attack.t1136.001
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4720
+    condition: selection
+falsepositives:
+    - Legitimate account creation by system administrators
+    - Authorized user provisioning
+level: medium
